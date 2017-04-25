@@ -1,6 +1,6 @@
 # npmtest-bootstrap
 
-#### test coverage for  [bootstrap (v3.3.7)](http://getbootstrap.com)  [![npm package](https://img.shields.io/npm/v/npmtest-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bootstrap.svg)](https://travis-ci.org/npmtest/node-npmtest-bootstrap)
+#### basic test coverage for  [bootstrap (v3.3.7)](http://getbootstrap.com)  [![npm package](https://img.shields.io/npm/v/npmtest-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-bootstrap.svg)](https://travis-ci.org/npmtest/node-npmtest-bootstrap)
 
 #### The most popular front-end framework for developing responsive, mobile first projects on the web.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-bootstrap/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-bootstrap/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-bootstrap/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-bootstrap/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bootstrap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bootstrap/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-bootstrap/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-bootstrap/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-bootstrap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-bootstrap/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-bootstrap/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-bootstrap/build/coverage.html/index.html)
 
@@ -136,7 +136,8 @@
         "update-shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json"
     },
     "style": "dist/css/bootstrap.css",
-    "version": "3.3.7"
+    "version": "3.3.7",
+    "bin": {}
 }
 ```
 
